@@ -20,7 +20,7 @@ void insert(Node** first,int input){
 void selectionSort(Node** first)
 {
     Node* i,*j;
-    for (i = *first; i!=nullptr&&i!=nullptr; i=i->next)
+    for (i = *first; i!=nullptr; i=i->next)
     {
         Node* miny = i;
         for (j = i->next; j!=nullptr ; j=j->next){
